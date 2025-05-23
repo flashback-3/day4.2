@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vijay Chaudhary's Portfolio</title>
+  <meta name="description" content="Portfolio of Vijay Chaudhary - Software Developer">
+  <meta name="keywords" content="portfolio, software developer, web developer, Vijay Chaudhary">
+  <meta name="author" content="Vijay Chaudhary">
+  <link rel="icon" href="vijay.jpeg" type="image/jpeg">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+</head>
+<body>
+
+  <!-- Dark/Light Mode Toggle -->
+  <div class="theme-toggle">
+    <button id="theme-toggle-btn">
+      <i class="fas fa-moon"></i>
+      <i class="fas fa-sun"></i>
+    </button>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+    <p>Hi, I'm Vijay Chaudhary — A Software developer.</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="nav-container">
+      <div class="nav-logo">Vijay Chaudhary</div>
+      <div class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#goals">Goals</a>
+        <a href="#personal">Personal</a>
+        <a href="#contact">Contact</a>
+        <a href="shop.html" class="shopping-link">My Shopping Site</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Welcome Section -->
+    <section id="welcome">
+      <h2>Hello!</h2>
+      <img src="vijay.jpeg" alt="My Photo" class="profile-pic">
+      <p style="text-align:center;">
+        I'm <strong>Vijay Chaudhary</strong>, passionate about solving real-world problems
+        and eager to get new experiences.
+      </p>
+    </section>
+
+    <!-- About Me -->
+    <section id="about">
+      <h2>About Me</h2>
+      <ul>
+        <li><strong>Name:</strong> Vijay Chaudhary</li>
+        <li><strong>Location:</strong> Boisar, Palghar, Maharashtra, India</li>
+        <li><strong>Education:</strong> Pursuing Computer Engineering at St. John College of Engineering and Management</li>
+        <li><strong>Languages Known:</strong> C, SQL, Python, HTML, CSS, JavaScript</li>
+      </ul>
+    </section>
+
+    <!-- Video Section -->
+    <section id="video">
+      <h2>Inspiring Video</h2>
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/MvZ9dI_b72I" title="PROMO: UNSTOPPABLE by Sandeep Maheshwari" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <!-- Achievements -->
+    <section id="achievements">
+      <h2>Achievements</h2>
+      <ul>
+        <li>Intern at Raw Engineering</li>
+        <li>Lazer tag (2nd Prize)</li>
+        <li>IOFT(AR & VR) Certification</li>
+      </ul>
+    </section>
+
+    <!-- Future Goals -->
+    <section id="goals">
+      <h2>Future Goals</h2>
+      <p>I want to become a full stack developer.</p>
+      <p>My mission is to solve real-world problems using technology and inspire the next generation of developers.</p>
+    </section>
+
+    <!-- Personal Side -->
+    <section id="personal">
+      <h2>More About Me</h2>
+      <ul>
+        <li><strong>Hobbies:</strong> Reading, Coding, Cricket</li>
+        <li><strong>Role Models:</strong> Dr.A.P.J. Kalam</li>
+        <li><strong>Books:</strong> "Wings of Fire"</li>
+        <li><strong>Websites:</strong> Amazon</li>
+        <li><strong>Startups I admire:</strong> CAPCO-Technology and Management Consultancy</li>
+        <li><strong>Volunteering Experience:</strong> Not yet</li>
+      </ul>
+    </section>
+
+    <!-- Google Map Embed -->
+    <section class="location-section">
+      <h2>Location</h2>
+      <ul> <li><strong>Location</strong>-pd nagar,Boisar,Palghar,Maharashtra</li></ul>
+      <div class="w-full h-64 md:h-full">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3753.7884439504014!2d72.74522597499698!3d19.80656518155427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be71e52e35b9f47%3A0x849066c86fd9ba07!2sRP4X%2BJ43%2C%20P.D%2C%20Nagar%2C%20Chitralaya%2C%20Boisar%2C%20Katkar%2C%20Maharashtra%20401501!5e0!3m2!1sen!2sin!4v1747731791245!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section id="contact">
+      <h2 class="contact-heading">Let's Connect</h2>
+      <p class="contact-subheading">Have an idea, a question, or just want to say hi? I'm all ears. 🔥</p>
+
+      <form action="https://formspree.io/f/mblobvzw" method="POST" class="contact-form">
+        <div class="input-group">
+          <label for="email"><i class="fas fa-envelope"></i> Your Email</label>
+          <input type="email" id="email" name="email" placeholder="e.g. your@email.com" required>
+        </div>
+
+        <div class="input-group">
+          <label for="message"><i class="fas fa-comment-dots"></i> Your Message</label>
+          <textarea id="message" name="message" rows="6" placeholder="Type your message here..." required></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">
+          🚀 Send Message
+        </button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Cookie Consent -->
+  <div id="cookie-consent" class="cookie-consent">
+    <div class="cookie-content">
+      <p>We use cookies to enhance your experience on our website. By continuing to browse, you agree to our use of cookies.</p>
+      <div class="cookie-buttons">
+        <button id="accept-cookies" class="cookie-btn accept">Accept</button>
+        <button id="decline-cookies" class="cookie-btn decline">Decline</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Vijay Chaudhary |
+      <a href="mailto:123vijay2018@sjcem.edu.in">Email</a> |
+      <a href="https://github.com/flashback-3" target="_blank"><i class="fab fa-github"></i> GitHub</a> |
+      <a href="https://www.linkedin.com/in/vijay-chaudhary-5b2b4b1b0/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a> |
+      <a href="shop.html">My Shopping Site</a>
+    </p>
+    <p class="visitor-count">Visitors: <span id="visitor-counter">0</span></p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    // Theme Toggle
+    const themeToggleBtn = document.getElementById('theme-toggle-btn');
+    const body = document.body;
+    
+    // Check for saved theme preference
+    const currentTheme = localStorage.getItem('theme');
+    if (currentTheme) {
+      body.classList.add(currentTheme);
+    }
+    
+    themeToggleBtn.addEventListener('click', () => {
+      body.classList.toggle('dark-mode');
+      const theme = body.classList.contains('dark-mode') ? 'dark-mode' : '';
+      localStorage.setItem('theme', theme);
+    });
+
+    // Hamburger Menu
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+
+    // Cookie Consent
+    const cookieConsent = document.getElementById('cookie-consent');
+    const acceptCookies = document.getElementById('accept-cookies');
+    const declineCookies = document.getElementById('decline-cookies');
+
+    // Check if cookie consent was already given
+    if (!localStorage.getItem('cookieConsent')) {
+      cookieConsent.style.display = 'block';
+    }
+
+    acceptCookies.addEventListener('click', () => {
+      localStorage.setItem('cookieConsent', 'accepted');
+      cookieConsent.style.display = 'none';
+      // Set a cookie that expires in 30 days
+      document.cookie = "cookieConsent=accepted; max-age=" + 60 * 60 * 24 * 30 + "; path=/";
+    });
+
+    declineCookies.addEventListener('click', () => {
+      localStorage.setItem('cookieConsent', 'declined');
+      cookieConsent.style.display = 'none';
+    });
+
+    // Visitor Counter
+    const updateVisitorCounter = () => {
+      let count = localStorage.getItem('visitorCount');
+      if (!count) {
+        count = 0;
+      }
+      count++;
+      localStorage.setItem('visitorCount', count);
+      document.getElementById('visitor-counter').textContent = count;
+    };
+
+    // Last Visited Section
+    const trackLastVisited = () => {
+      const sections = document.querySelectorAll('section');
+      const options = {
+        threshold: 0.5
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            localStorage.setItem('lastVisitedSection', entry.target.id);
+          }
+        });
+      }, options);
+
+      sections.forEach(section => {
+        observer.observe(section);
+      });
+    };
+
+    // Scroll to last visited section
+    const scrollToLastVisited = () => {
+      const lastVisited = localStorage.getItem('lastVisitedSection');
+      if (lastVisited) {
+        const element = document.getElementById(lastVisited);
+        if (element) {
+          setTimeout(() => {
+            element.scrollIntoView({ behavior: 'smooth' });
+          }, 500);
+        }
+      }
+    };
+
+    // Initialize functions when DOM is loaded
+    document.addEventListener('DOMContentLoaded', () => {
+      updateVisitorCounter();
+      trackLastVisited();
+      scrollToLastVisited();
+    });
+
+    // Fade-in animation
+    window.addEventListener('load', () => {
+      document.body.classList.add('loaded');
+    });
+  </script>
+</body>
+</html>
